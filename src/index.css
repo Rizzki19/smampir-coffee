@@ -1,8 +1,3 @@
-@import "tailwindcss";
-
-/* ... (biarkan bagian :root dan selektor CSS Anda lainnya sama) ... */
-
-/* Ubah bagian bawah ini menjadi CSS murni */
 .animate-fade-in {
   animation: fadeIn 1s ease-in-out;
 }
