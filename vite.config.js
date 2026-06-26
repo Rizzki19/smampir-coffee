@@ -1,10 +1,7 @@
 import { defineConfig } from "vite";
-import tailwindcss from "@tailwindcss/vite"; // Tambahkan ini
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite"; // Tailwind v4 menggunakan plugin ini
 
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(), // Tambahkan ini
-  ],
+  plugins: [react(), tailwindcss()],
 });
