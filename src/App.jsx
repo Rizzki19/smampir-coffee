@@ -1,22 +1,21 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
 import Menu from "./components/Menu";
+import Testimonials from "./components/Testimonials";
+import Location from "./components/Location";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="bg-stone-950 text-stone-100 min-h-screen font-serif scroll-smooth">
+    <div className="bg-stone-50 min-h-screen text-stone-900">
       <Navbar />
-      <main className="animate-fade-in">
-        <Hero />
-        <About />
-        <Menu />
-        <Contact />
-      </main>
+      <Hero />
+      <Menu />
+      <Testimonials />
+      <Location />
+      <Contact />
       <Footer />
     </div>
   );
 }
-export default App;
